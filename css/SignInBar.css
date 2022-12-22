@@ -1,0 +1,53 @@
+.sign-in-bar{
+    height: 36px;
+    width: 100%;
+    background-color:#ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #777;
+    font-size: 14px;
+}
+.left-text-sign-in{
+    height: 100%;
+    color: #777;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 150px;
+}
+.right-sign-in-bar{
+    height: 100%;
+    color: #777;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 150px;
+}
+.currency{
+    padding: 0 20px 0 20px;
+    display: flex;
+    cursor: pointer;
+}
+.left-text{
+    padding-right: 8px;
+}
+.righ-icon{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.translation{
+    padding: 0 20px 0 20px;
+    display: flex;
+    cursor: pointer;
+}
+.sign-in_sign-up{
+    padding: 0 20px 0 20px;
+    display: flex;
+    cursor: pointer;
+}

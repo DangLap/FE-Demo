@@ -1,0 +1,204 @@
+.header-bottom{
+    height: 56px;
+    width: 100%;
+    padding: 0 150px 0 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    color: #777;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 3;
+}
+.header-bottom-left{
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    border-right: 1px solid rgb(171, 171, 171);;
+    height: 36px;
+    cursor: pointer;
+    color: #777;
+}
+.header-bottom-left:hover{
+    background-color: #a6c76c;
+    color: #fff;
+}
+.header-bottom-left-icon{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding-left: 40px;
+    width: 80px;
+    box-sizing: border-box;
+}
+.header-bottom-left-text{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.header-bottom-center{
+    border-right: 1px solid rgb(171, 171, 171);;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 575px;
+    justify-content: space-between;
+    height: 36px;
+}
+.header-bottom-center-item{
+    display: flex;
+    flex-direction: row;
+    padding: 0 12px 0 12px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.header-bottom-center-item:hover{
+    color: #a6c76c;
+}
+.header-bottom-center-item-icon{
+    padding-left: 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+}
+.header-bottom-right{
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+}
+.alert{
+    margin-right: 6px;
+}
+/**
+*
+*/
+.intro-contain{
+    width: 100%;
+    height: 530px;
+    background-image: url(../FrontEnd/Images/slide-1-1.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 60% 0;
+    background-color: rgb(237, 242, 240);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0;
+    margin-bottom: 8px;
+}
+.intro-left{
+    height: 60%;
+    width: 600px;
+    z-index: 2;
+    text-align: left;
+    padding-left: 200px;
+    box-sizing: border-box;
+}
+.intro-left-text{
+    color: #777;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.price{
+    color: #a6c76c;
+}
+.btn-shop{
+    width: 170px;
+    height: 40px;
+    border-radius: 0px;
+    border: 1px solid #777;
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
+.arrow{
+    padding-left: 6px;
+}
+.btn-shop:hover{
+    background-color: #a6c76c;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.intro-right{
+    width: 1000px;
+    height: 100%;
+    background-image: url(/FrontEnd/Images/slide-1-3.png);
+    background-repeat: no-repeat;
+    background-position: 60% 10vh;
+}
+.brand-container{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+.brand-item1{
+    height: 100%;
+    width: 250px;
+    background-image: url("../FrontEnd/Images/1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:.1rem solid #ebebeb;
+}
+.brand-item2{
+    height: 100%;
+    width: 250px;
+    background-image: url("../FrontEnd/Images/2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:.1rem solid #ebebeb;
+}
+.brand-item3{
+    height: 100%;
+    width: 250px;
+    background-image: url("../FrontEnd/Images/3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:.1rem solid #ebebeb;
+}
+.brand-item4{
+    height: 100%;
+    width: 250px;
+    background-image: url("../FrontEnd/Images/4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:.1rem solid #ebebeb;
+}
+.brand-item5{
+    height: 100%;
+    width: 250px;
+    background-image: url("../FrontEnd/Images/5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:.1rem solid #ebebeb;
+}
+.brand-item6{
+    height: 100%;
+    width: 250px;
+    background-image: url("../FrontEnd/Images/6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:.1rem solid #ebebeb;
+}
+.brand-item7{
+    height: 100%;
+    width: 250px;
+    background-image: url("../FrontEnd/Images/7.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:.1rem solid #ebebeb;
+}

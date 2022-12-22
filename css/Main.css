@@ -1,0 +1,24 @@
+@import url("../css/SignInBar.css");
+@import url("../css/HeaderMiddle.css");
+@import url("../css/HeaderBottom.css");
+@import url("../css/Banner.css");
+@import url("../css/FeatureBar.css");
+@import url("../css/TopProduct.css");
+@import url("../css/Benefit.css");
+@import url("../css/FooterNewsLetter.css");
+@import url("../css/Footer.css");
+@import url("../css/Direction.css");
+@import url("../css/ProductDetail.css");
+@import url("../css/NavProduct.css");
+@import url("../css/GridShop.css");
+@import url("../css/Cart.css");
+
+    @font-face {
+        font-family: base;
+        src: url(../FrontEnd/Fonts/OpenSans-Light.ttf);
+    }
+
+body{
+    margin: 0px;
+    font-family: base;
+}

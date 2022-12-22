@@ -1,0 +1,124 @@
+.footer{
+    width: 100%;
+    height: 280px;
+    box-sizing: border-box;
+    padding: 0 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.footer-top{
+    width: 100%;
+    height: 220px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+}
+.footer-top1{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.footer-logo{
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    background-image: url("../FrontEnd/Images/logo.png");
+    background-repeat: no-repeat;
+}
+.footer-more-infomation{
+    padding-top: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 15px;
+    color: #777;
+    padding-bottom: 16px;
+}
+.footer-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.footer-contact-call-us{
+    font-size: 18px;
+    color: #777;
+    font-weight: 500;
+}
+.tex{
+    padding-bottom: 16px;
+}
+.phone-number{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a6c76c;
+    padding-bottom: 16px;
+}
+.footer-top2{
+    width: 240px;
+    height: 100%;
+    padding-left: 35px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.footer-title{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-list{
+    color: #777;
+    margin: 6px 0 0 0;
+    cursor: pointer;
+}
+.footer-list:hover{
+    color: #a6c76c;
+}
+.footer-bottom{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-bottom-item{
+    color: #ccc;
+    height: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 12px 0 0;
+}
+.item-footer{
+    margin-top: 12px;
+    padding-right: 12px;
+    margin-right: 12px;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+}
+.item-footer:hover{
+    color: #a6c76c;
+}
+.social-text{
+    color: #ccc;
+    margin-top: 12px;
+    margin-top: 12px;
+}
+.social-item{
+    margin-left: 12px;
+    margin-top: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.social-item:hover{
+    color: red;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}

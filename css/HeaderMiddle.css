@@ -1,0 +1,82 @@
+.header-middle{
+    height: 86px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.logo{
+    width: 104px;
+    height: 26.5px;
+    background-image: url(../FrontEnd/Images/logo.png);
+    background-size: 104px 26.5px;
+}
+.search-bar{
+    width: 560px;
+    height: 42px;
+    border-radius: 1px;
+    border: 1px solid rgb(168, 167, 167);
+    padding: 0 16px 0 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.search-input{
+    height: 30px;
+    width: 560px;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 16px;
+}
+.search-logo{
+    /* background-image: url(../FrontEnd/Icons/Ic_seerch.png); */
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    /* background-size: 36px 36px; */
+}
+
+.right-header-middle{
+    display: flex;
+    flex-direction: row;
+}
+.account-container{
+    width: 48px;
+    height: 48px;
+    color: #777;
+    margin-right: 16px;
+}
+.wishlist-container{
+    width: 48px;
+    height: 48px;
+    color: #777;
+    margin-right: 16px;
+}
+.cart-container{
+    width: 48px;
+    height: 48px;
+    color: #777;
+    margin-right: 16px;
+}
+.right-header-middle-logo{
+    width: 48px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+.right-header-middle-text{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

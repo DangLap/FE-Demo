@@ -1,0 +1,97 @@
+.banner-group{
+    height: 600px;
+    width: 100%;
+    padding: 40px 150px 40px 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.banner1{
+    height: 100%;
+    width: 500px;
+    background-image: url("../FrontEnd/Images/banner-1.jpg");
+    background-size: 500px 550px;
+    box-sizing: border-box;
+    padding: 40px 0 0 40px;
+    margin-right: 25px;
+}
+.btn-shop-banner{
+    width: 130px;
+    height: 40px;
+    border-radius: 0px;
+    border: 1px solid #777;
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.btn-shop-banner:hover{
+    background-color: #a6c76c;
+    border: none;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 8px;
+}
+.banner-price{
+    color: #777;
+}
+.banner2{
+    height: 100%;
+    width: 350px;
+    background-image: url("../FrontEnd/Images/banner-2.jpg");
+    background-size: 350px 550px;
+    box-sizing: border-box;
+    padding: 40px 0 0 40px;
+    margin-right: 25px;
+    color: #fff;
+}
+.banner2 .intro-left-text, .banner2 .banner-price{
+    color: #fff;
+}
+.banner2 .btn-shop-banner{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.banner2 .btn-shop-banner:hover{
+    border: none;
+    color: #fff;
+}
+.banner3{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.banner3-ontop{
+    width: 100%;
+    height: 48%;
+    background-color: #a6c76c;
+    background-image: url('../FrontEnd/Images/banner-3.jpg');
+    background-size: 500px 250px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.banner3-ontop h2{
+    padding-bottom: 10px;
+}
+.banner3-bottom{
+    width: 100%;
+    height: 48%;
+    background-color: #a6c76c;
+    background-image: url('../FrontEnd/Images/banner-4.jpg');
+    background-size: 500px 250px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-left: 40px;
+}

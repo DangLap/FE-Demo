@@ -1,0 +1,47 @@
+.direction-bar{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0 190px 0 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.grant{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color: #777;
+    align-items: center;
+}
+.chevron{
+    padding: 0 8px 0 8px;
+    font-weight: 0;
+}
+.grant-text:hover{
+    color: #a6c76c;
+}
+.grant-text{
+    cursor: pointer;
+}
+.btn-navi{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #fff;
+    font-size: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+    color: #777;
+}
+.btn-navi:hover{
+    color: #a6c76c;
+}
+.navigate-button{
+    display: flex;
+    flex-direction: row;
+}
